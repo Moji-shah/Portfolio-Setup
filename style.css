@@ -9,15 +9,16 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-.hero{
+.hero {
   background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
-.main {
-   
-    text-align: center;
+.about-section-content {
+  margin-right: 30px;
+  text-align: center;
 }
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 90px;
@@ -67,6 +68,23 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-section p {
+  font-size: 16px;
+}
+.image {
+  border-radius: 9px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
@@ -74,6 +92,15 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 47px;
+  }
+  .image {
+    height: 80%;
   }
   .project-description {
     padding: 0;
@@ -84,5 +111,8 @@ p {
   }
   .project-description p {
     font-size: 14px;
+  }
+  .about {
+    width: 60%;
   }
 }
